@@ -236,7 +236,7 @@ function Quiz({checkAnswer}) {
   }
 
   return (
-    <div style={{ width: '100%' }} className='p-3 d-flex align-items-center justify-content-center'>
+    <div style={{ width: '100%' , height:'auto'}} className='p-3 d-flex align-items-center justify-content-center'>
       <div style={{ width: '60rem' }} className='p-2 d-flex flex-column justify-content-center align-items-center' >
         <div style={{ background: 'linear-gradient(to right, #02fab0,#02c8fa)' }} className='px-4 py-2  rounded-pill shadow'>
           <h2 className='text-center text-white'>EasyQuiz</h2>
